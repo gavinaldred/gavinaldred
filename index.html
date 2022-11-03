@@ -1,9 +1,84 @@
 <html>
- 
+  <link rel="stylesheet" href=".\assets\style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono:ital@1&display=swap" rel="stylesheet">
 <body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <h1>HTML Table Reference Cheat Sheet!</h1>
+  <h2>Table of Tags</h2>
+  <table>
+    <thead>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Example</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="code">&lt;table&gt;</span></td>
+        <td>Table</td>
+        <td>The wrapper element for all HTML tables.</td>
+        <td>This table starts with a table tag.</td>
+      </tr>
+      <tr>
+        <td><span class="code">&lt;thead&gt;</span></td>
+        <td>Table Head</td>
+        <td>The set of rows defining the column headers in a table.</td>
+        <td>Tag, Name Description and Example are thead tags</td>
+      </tr>
+      <tr>
+        <td><span class="code">&lt;tbody&gt;</span></td>
+        <td>Table Body</td>
+        <td>The set of rows containing actual table data.</td>
+        <td>The tag is used to group the body content in an HTML table</td>
+      </tr>
+      <tr>
+        <td><span class="code">&lt;tr&gt;</span></td>
+        <td>Table Row</td>
+        <td>The table row container.</td>
+        <td>Used in conjunction with the thead and tfoot elements to specify each part of a table (body, header, footer).</td>
+      </tr>
+      <tr>
+        <td><span class="code">&lt;td&gt;</span></td>
+        <td>Table Data</td>
+        <td>The table row container.</td>
+        <td>The data inside the tr, like this!</td>
+      </tr>
+      <tr>
+        <td><span class="code">&lt;tfoot&gt;</span></td>
+        <td>Table Foot</td>
+        <td>The set of rows defining the footer in a table.</td>
+        <td>Tells a browser that the table is ending, also useful for printing.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Table Attributes</h2>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Example</th>
+      </thead>
+      <tbody>
+        <tr>
+            <td><span class="code">colspan</span></td> 
+            <td>Column Span</td>
+            <td>Specifies the number of columns a table cell should span.</td>
+            <td>You could make one td span two columns.</td>
+        </tr>
+        <tr>
+          <td><span class="code">rowspan</span></td>
+          <td>Row Span</td>
+          <td>Specifies the number of rows a table cell should span.</td>
+          <td>You could make one td space two tr</td>
+        </tr>
+      </tbody>
+    </table>
+  
 </body>
- 
+<script src="./assets/script.js"></script>
 </html>
